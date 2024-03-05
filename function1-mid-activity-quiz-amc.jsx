@@ -4,10 +4,7 @@
 <TouchableOpacity onPress={() => iDeleteMo(index)}>
 
 {/*
-TouchableOpacity is a component in React Native that provides touchable feedback. It's used here to make the 'X' character clickable.
-
-The onPress prop is assigned a function that is invoked when the 'X' is pressed. 
-In this case, it calls the iDeleteMo function with the current index as an argument.
+ it calls the iDeleteMo function with the current index as an argument.
 */}
 
 
@@ -24,7 +21,6 @@ In this case, the text color is set to black, and the font size is set to 20.
 
 
 {/*iDeleteMo Function:*/}
-
 
 const iDeleteMo = (index) => {
   // Function body
